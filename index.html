@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Billy's Portfolio</title>
+</head>
+<body>
+    <nav>
+        <h1><strong>BILLY KANTOR</strong></h1>
+        <ul>
+            <li> <a href="./index.html">HOME</a> </li>
+            <li> <a href="./about.html">ABOUT</a> </li>
+            <li> <a href="./resources.html">RESOURCES</a> </li>
+            <li> <a href="./projects.html">PROJECTS</a> </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="about-me">
+            <article class="about-me">
+                <h1>About Me</h1>
+                <p>Hi, I live in Rushville, Indiana with my wife Sarah, son Joey, and our Cat Remington. I grew up outside of Washington D.C., and after I went to college for civil engineering started working in construction. Throughout my time in construction I have moved all over the midwest, living in places like Kansas City, and Columbus. I made the switch to coding because I love to solve problems and get creative! I would ideally love to meet my love of farming or experience in construction to my new career in programming.</p>
+            </article>
+            <img src="./assets/family.JPG" alt="">
+        </div>
+        <div id="hobbies">
+            <img src="./assets/farming.jpg" alt="">
+            <article class="hobbies">
+                <h1>Hobbies</h1>
+                <p>The thing I love to do most in the world is spending time on the family farm. I raise cattle, and help out with harvest every year. Reading <em>The Lord of The Rings</em>, while drinking a hot chocolate next to a roaring fire on Christmas eve is my idea of relaxing. If I'm spending time with friends I'd love to be playing board games like Settlers of Catan, Munchkin, Attack on Tokyo, or Code Names.</p>
+            </article>
+            
+        </div>
+    </main>
+    <article id="contact">
+        <div id="contact-title">
+            <h1>Contact Me</h1>
+        </div>
+        <strong><small>Please contact me with questions</small></strong>
+        <form action="mailto:kantorwg@gmail.com" method="POST">
+            <label class="contact-label" for="name"><strong>Name</strong></label>
+            <br>
+            <input type="text" id="name" placeholder="Your Name">
+            <br>
+            <label class="contact-label" for="body"><strong>Message</strong></label>
+            <br>
+            <textarea id="body" cols="20" rows="10" placeholder="Your Message"></textarea>
+        </form>
+    </article>
+</body>
+</html>

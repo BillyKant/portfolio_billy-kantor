@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #273c2cff;
+    font-family: 'Koulen', cursive;
+}
+
+nav {
+    font-family: 'Koulen', cursive;
+    background-color: #273c2cff;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+}
+
+nav h1 {
+    color: #fa9500ff;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: none;
+    margin-right: 60px;
+}
+
+
+nav a {
+    color: #fefae0ff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: center;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    color: #fa9500ff;
+}
+
+h1 {
+    color: #fa9500ff;
+}
+
+div {
+    height: 70vh;
+    margin-top: 200px;
+}
+
+a {
+    color: #fefae0ff;
+    font-size: 50px;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+}
+
+.contact-label {
+    color: #fefae0ff;
+}
+
+#contact strong{
+    display: flex;
+    justify-content: center;
+    margin-left: 50vw;
+}

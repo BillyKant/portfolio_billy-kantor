@@ -1,0 +1,98 @@
+/* Color Palette: https://coolors.co/273c2c-fefae0-fa9500-885053-15b097
+--kombu-green: #273c2cff;
+--cornsilk: #fefae0ff;
+--yellow-orange-color-wheel: #fa9500ff;
+--tuscan-red: #885053ff;
+--keppel: #15b097ff; */
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #273c2cff;
+    font-family: 'Koulen', cursive;
+}
+
+nav {
+    font-family: 'Koulen', cursive;
+    background-color: #273c2cff;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+}
+
+nav h1 {
+    color: #fa9500ff;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: none;
+    margin-right: 60px;
+}
+
+
+nav a {
+    color: #fefae0ff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: center;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    color: #fa9500ff;
+}
+
+hr {
+    color: #fefae0ff;
+}
+
+article {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+article h1 {
+    color: #fa9500ff;
+    font-size: 30px;
+}
+
+article p {
+    color: #fefae0ff;
+    font-size: 23px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#about-me img {
+    width: 20vw;
+    border-radius: 5%;
+    margin-right: 100px;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#hobbies img {
+    width: 20vw;
+    border-radius: 5%;
+    margin-left: 80px;
+}
